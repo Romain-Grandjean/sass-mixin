@@ -64,6 +64,7 @@ html {
   position: relative;
   top: 1.8rem;
   left: 26.78vw;
+  font-family: neue-haas-grotesk-display;
   font-size: 1.4rem;
   font-weight: 500;
   color: #505050;
@@ -75,7 +76,9 @@ html {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  font-weight: 200;
+  font-family: neue-haas-grotesk-display;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .menu-left {
@@ -100,8 +103,9 @@ html {
 }
 
 .menu-left span {
-  font-size: 2.3rem;
   color: #505050;
+  font-family: neue-haas-grotesk-display;
+  font-size: 2.3rem;
   font-weight: 200;
   letter-spacing: 0.1rem;
 }
@@ -118,7 +122,9 @@ html {
 }
 
 .menu-center span {
+  font-family: neue-haas-grotesk-display;
   font-size: 2.3rem;
+  font-weight: 200;
   color: #505050;
 }
 
@@ -143,8 +149,9 @@ html {
 }
 
 .menu-right span {
-  font-size: 2.3rem;
   color: #505050;
+  font-family: neue-haas-grotesk-display;
+  font-size: 2.3rem;
   font-weight: 200;
   letter-spacing: 0.1rem;
 }
@@ -157,6 +164,8 @@ html {
   justify-content: space-between;
   align-items: center;
   align-items: flex-end;
+  background-color: white;
+  border-top: 0.2rem white solid;
 }
 
 .square {
@@ -170,19 +179,50 @@ html {
 }
 
 #square04 {
-  background-color: #F8E07B;
+  background-color: #fae798;
 }
 
 #square03 {
-  background-color: #FBEBA7;
+  background-color: #fcf2c8;
 }
 
 #square02 {
-  background-color: #FDF5D3;
+  background-color: white;
 }
 
 #square01 {
   background-color: white;
+}
+
+@media (max-width: 1150px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (max-width: 1050px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 7px;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 6px;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 5px;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 4px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
