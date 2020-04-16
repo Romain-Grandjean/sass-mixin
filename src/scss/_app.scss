@@ -1,7 +1,7 @@
 
 .app {
-    width: 60vw;
-    height: 23.7572254335vw;
+    width: $app-width;
+    height: 23.75vw;
     background-color: #FEFFFE;
     border: 0.1rem #D5D5D5 solid;
     border-radius: 0.4rem;
@@ -38,7 +38,7 @@
   .css-hex {
     position: relative;
     top: 1.8rem;
-    left: 26.7857142857vw;
+    left: 26.78vw;
     font-size: 1.4rem;
     font-weight: 500;
     color: #505050;
@@ -118,8 +118,8 @@
   }
   
   .square {
-    width: 11.7647058824vw;
-    height: 11.3353370545vw;
+    width: 11.76vw;
+    height: 11.33vw;
     background-color: rgba(203, 203, 203, 0.399);
   }
   
