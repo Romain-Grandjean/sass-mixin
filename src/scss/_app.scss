@@ -41,7 +41,7 @@
     left: 26.78vw;
     font-size: 1.4rem;
     font-weight: 500;
-    color: #505050;
+    color: $color-text;
   }
   
   .main-menu {
@@ -65,13 +65,13 @@
   .menu-left .circle {
     height: 0.9rem;
     width: 0.9rem;
-    border: 0.14rem #505050 solid;
+    border: 0.14rem $color-text solid;
     border-radius: 50%;
     margin-right: 1rem;
   }
   .menu-left span {
     font-size: 2.3rem;
-    color: #505050;
+    color: $color-text;
     font-weight: 200;
     letter-spacing: 0.1rem;
   }
@@ -99,13 +99,13 @@
   .menu-right .circle {
     height: 0.9rem;
     width: 0.9rem;
-    border: 0.14rem #505050 solid;
+    border: 0.14rem $color-text solid;
     border-radius: 50%;
     margin-left: 1rem;
   }
   .menu-right span {
     font-size: 2.3rem;
-    color: #505050;
+    color: $color-text;
     font-weight: 200;
     letter-spacing: 0.1rem;
   }
